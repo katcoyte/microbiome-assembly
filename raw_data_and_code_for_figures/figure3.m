@@ -1,5 +1,5 @@
 %% Figure 3
-
+load('figure3.mat')
 sigma_space = [0.025, 0.05, 0.075, 0.1, 0.125];
 PmSpace =  linspace(0.0,1,11);
 repeats=150;

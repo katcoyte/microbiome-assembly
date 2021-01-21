@@ -1,5 +1,5 @@
 %% Figure 2
-
+load('figure2.mat')
 marker_type = ['o','^','s','p','h'];
 f = figure;
 
