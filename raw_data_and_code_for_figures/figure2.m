@@ -61,7 +61,7 @@ xticklabels(PmSpace)
 yticks(1:length(sigma_space))
 yticklabels(sigma_space)
 colormap(gca, flipud(cbrewer('seq', 'Greens',100, 'PCHIP')))
-caxis([2,10])
+caxis([0,10])
 
 
 subplot(2,3,6)
@@ -71,5 +71,5 @@ xticklabels(PmSpace)
 yticks(1:length(sigma_space))
 yticklabels(sigma_space)
 colormap(gca, flipud(cbrewer('seq', 'Greens',100, 'PCHIP')))
-caxis([2,10])
+caxis([0,10])
 
